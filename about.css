@@ -1,0 +1,38 @@
+body {
+            background-color: rgb(198, 224, 226);
+                        }
+        nav{display: block;}
+      nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+            
+        li a {
+            display: block;
+            padding: 14px 16px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            }
+        li a:hover:not(active){
+                    background-color: #111;
+                    }
+        .active {
+                background-color: #e08f60
+            }
+        nav li{
+        display: inline;
+        float: left;
+        position: relative;
+        left: 500px;
+            }
+        footer {
+            text-align: center;
+            color: blue
+        }
